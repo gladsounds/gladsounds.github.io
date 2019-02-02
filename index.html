@@ -8,19 +8,28 @@
     <body>
         <h1 class="title">ГЛАД ВАЛАКАС</h1>
         <div>
-            <audio id="kavo" src="sounds\kavo.mp3" preload="auto" autoplay></audio>
-            <audio id="ainudavai" src="sounds\ainudavai.mp3" preload="auto" autoplay></audio>
-            <audio id="lyakakaya" src="sounds\lyakakaya.mp3" preload="auto" autoplay></audio>
+            <audio id="kavo" src="sounds\kavo.mp3" preload="auto"></audio>
+            <audio id="ainudavai" src="sounds\ainudavai.mp3" preload="auto"></audio>
+            <audio id="lyakakaya" src="sounds\lyakakaya.mp3" preload="auto"></audio>
+            <audio id="ban" src="sounds\ban.mp3" preload="auto"></audio>
+            <audio id="danevazhno" src="sounds\danevazhno.mp3" preload="auto"></audio>
+            <audio id="gadza" src="sounds\gadza.mp3" preload="auto"></audio>
         </div>
         <div>
             <p><input type="button" value="КАВО" onclick="playkavo()"></p>
             <p><input type="button" value="АЙ НУ ДАВАЙ" onclick="playainudavai()"></p>
             <p><input type="button" value="ЛЯ КАКАЯ" onclick="playlyakakaya()"></p>
+            <p><input type="button" value="БАН" onclick="playban()"></p>
+            <p><input type="button" value="ДА НЕ ВАЖНО" onclick="playdanevazhno()"></p>
+            <p><input type="button" value="ГАДЗА" onclick="playgadza()"></p>
         </div>
         <script>
             function playkavo(){document.getElementById("kavo").play()}
             function playainudavai(){document.getElementById("ainudavai").play()}
             function playlyakakaya(){document.getElementById("lyakakaya").play()}
+            function playban(){document.getElementById("ban").play()}
+            function playdanevazhno(){document.getElementById("danevazhno").play()}
+            function playgadza(){document.getElementById("gadza").play()}
         </script>
     </body>
 </html>

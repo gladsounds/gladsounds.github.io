@@ -8,16 +8,19 @@
     <body>
         <h1 class="title">ГЛАД ВАЛАКАС</h1>
         <div>
-            <audio id="kavo" src="kavo.mp3" preload="auto" autoplay></audio>
-            <audio id="ainudavai" src="ainudavai.mp3" preload="auto" autoplay></audio>
+            <audio id="kavo" src="sounds\kavo.mp3" preload="auto" autoplay></audio>
+            <audio id="ainudavai" src="sounds\ainudavai.mp3" preload="auto" autoplay></audio>
+            <audio id="lyakakaya" src="sounds\lyakakaya.mp3" preload="auto" autoplay></audio>
         </div>
         <div>
             <p><input type="button" value="КАВО" onclick="playkavo()"></p>
             <p><input type="button" value="АЙ НУ ДАВАЙ" onclick="playainudavai()"></p>
+            <p><input type="button" value="ЛЯ КАКАЯ" onclick="playlyakakaya()"></p>
         </div>
         <script>
             function playkavo(){document.getElementById("kavo").play()}
             function playainudavai(){document.getElementById("ainudavai").play()}
+            function playlyakakaya(){document.getElementById("lyakakaya").play()}
         </script>
     </body>
 </html>

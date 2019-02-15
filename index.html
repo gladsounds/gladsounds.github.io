@@ -10,6 +10,7 @@
         <h1 class="title">САУНДБОРД ИМЕНИ ГЛАДА ВАЛАКАСА</h1>
         <div>
             <audio id="kavo" src="sounds\kavo.mp3" preload="auto"></audio>
+            <audio id="neponyal" src="sounds\neponyal.mp3" preload="auto"></audio>
             <audio id="ainudavai" src="sounds\ainudavai.mp3" preload="auto"></audio>
             <audio id="lyakakaya" src="sounds\lyakakaya.mp3" preload="auto"></audio>
             <audio id="ban" src="sounds\ban.mp3" preload="auto"></audio>
@@ -18,6 +19,7 @@
         </div>
         <div class="hehe">
             <p><input type="button" value="КАВО" onclick="playkavo()"></p>
+            <p><input type="button" value="НЕ ПОНЯЛ" onclick="playneponyal()"></p>
             <p><input type="button" value="АЙ НУ ДАВАЙ" onclick="playainudavai()"></p>
             <p><input type="button" value="ЛЯ КАКАЯ" onclick="playlyakakaya()"></p>
             <p><input type="button" value="БАН" onclick="playban()"></p>
@@ -31,6 +33,7 @@
             function playban(){document.getElementById("ban").play()}
             function playdanevazhno(){document.getElementById("danevazhno").play()}
             function playgadza(){document.getElementById("gadza").play()}
+            function playneponyal(){document.getElementById("neponyal").play()}
         </script>
     </body>
 </html>
